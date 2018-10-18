@@ -4,7 +4,7 @@
 </br>
 <p align="center">🍭🍭🍭👋👋👋</p>
 
-> <h5>每日一更，学习记录 daily update.</h5>
+> <h5>生命苦短，我用Python！ Python Scrapy-Redis Demos.</h5>
 
 ## 简易结构
 学习路线
@@ -60,7 +60,7 @@
 │
 ├─── README.md
 │
-└───END
+└─── END
 ```
 
 
