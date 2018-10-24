@@ -4,7 +4,8 @@
 </br>
 <p align="center">🍭🍭🍭👋👋👋</p>
 
-> <h5>生命苦短，我用Python！ Python Scrapy-Redis Demos.</h5>
+> <h5>生命苦短，我用Python！</h5>
+> <h5>Python Scrapy-Redis Demos.</h5>
 
 ## 简易结构
 学习路线
@@ -52,6 +53,13 @@
 │    │    ├── BeautifulSoup.ipynb
 │    │    ├── BeautifulSoup_demo1.py
 │    │    └── BeautifulSoup_demo2.py
+│    └── END
+│
+├─── Demo_RegularExpression
+│    ├── 正则表达式和re模块
+│    │    ├── RE_demo1.py
+│    │    ├── RE_demo2.py
+│    │    └── RE_demo3.py
 │    └── END
 │
 ├─── .idea
