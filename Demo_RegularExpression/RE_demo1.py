@@ -95,7 +95,55 @@ print(ret.group())
 
 ############## 正则表达式匹配字符小案例 ##############
 
-# 14.验证手机号码
-text = "12850523695"
+# 14.验证手机号码：
+text = "13850523695"
 ret = re.match('1[345678]\d{9}',text)
+print(ret.group())
+
+# 15.验证邮箱：
+text = "zjg_901206@gmail.com"
+ret = re.match('\w+@[a-z0-9]+\.[a-z]+',text)
+print(ret.group())
+
+# 16.验证URL：
+text = "https://github.com/"
+ret = re.match('(http|https|ftp)://[^\s]+',text)
+print(ret.group())
+
+# 17.验证身份证：
+text = "43072419941109021X"
+print(len(text))
+ret = re.match('\d{17}[\dxX]',text)
+print(ret.group())
+
+# 18. ^ (脱字号)：表示以…开始
+text = "hello"
+ret = re.match('^h',text)
+# ret = re.search('o', text)
+print(ret.group())
+
+# 19. $:表示以…结尾
+text = "xxxxxxx@126.com"
+ret = re.match('\w+@126.com$',text)
+print(ret.group())
+
+# 20. |：匹配多个表达式或字符串
+text = "ftp"
+ret = re.match('(http|https|ftp)$',text)
+print(ret.group())
+
+# 21. 贪婪模式与非贪婪模式：
+text = "0123456"
+ret = re.match('\d+',text)    # 贪婪模式
+ret = re.match('\d+?',text)   # 非贪婪模式
+print(ret.group())
+
+text = "<h1>标题</h1>"
+ret = re.match('<.+>',text)    # 贪婪模式
+ret = re.match('<.+?>',text)   # 非贪婪模式
+print(ret.group())
+
+# 22. 匹配0-100之间的数字
+text = "100"
+ret = re.match('([1-9]\d?)$|100$',text)
 print(ret.group())
