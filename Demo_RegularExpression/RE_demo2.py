@@ -12,12 +12,16 @@ print(ret.group())
 # text2 = r'\n'   # r表示原生  r=raw原生
 # print(text1,text2)
 
-text = "\\n"   # 等价于= '\n'
+text = "\c"   # 等价于= '\n'
 # python中： '\\n' = \n
 # \\\\n => \\n
+# \\n => \\n
+
 # 正则表达式中：\n =
 # \\n => \n
-ret = re.match('\\\\n',text)
+# \\c => c
+ret = re.match('\\\\c',text)
+ret = re.match(r'\\c',text)
 print(ret.group())
 
 
