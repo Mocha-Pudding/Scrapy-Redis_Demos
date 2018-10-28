@@ -8,6 +8,16 @@ ret = re.search("\$\d+",text)
 print(ret.group())
 
 # 原生字符串：
-text = '\n'
-print(text)
+# text1 = '\\n'   # 反斜杠\ 转义字符
+# text2 = r'\n'   # r表示原生  r=raw原生
+# print(text1,text2)
+
+text = "\\n"   # 等价于= '\n'
+# python中： '\\n' = \n
+# \\\\n => \\n
+# 正则表达式中：\n =
+# \\n => \n
+ret = re.match('\\\\n',text)
+print(ret.group())
+
 
