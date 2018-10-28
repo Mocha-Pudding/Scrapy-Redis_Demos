@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71cb2c8-cae6-4608-bcca-839bfb15c9fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/RE_demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/RE_demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RE_demo3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,14 +11,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Demo_RegularExpression$RE_demo3.coverage" NAME="RE_demo3 Coverage Results" MODIFIED="1540744585305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Demo_RegularExpression$RE_demo1.coverage" NAME="RE_demo1 Coverage Results" MODIFIED="1540564684010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Demo_RegularExpression$RE_demo2.coverage" NAME="RE_demo2 Coverage Results" MODIFIED="1540742100135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Demo_RegularExpression$RE_demo2.coverage" NAME="RE_demo2 Coverage Results" MODIFIED="1540742633414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1229806740">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -30,24 +31,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1828" />
+          <entry key="py" value="2483" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1827" />
-          <entry key="RegExp" value="1" />
+          <entry key="Python" value="2478" />
+          <entry key="RegExp" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="2" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="2" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -58,17 +59,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RE_demo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2831">
+            <state relative-caret-position="280">
               <caret line="149" selection-start-line="149" selection-end-line="149" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RE_demo2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="485">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RE_demo3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="87" column="18" lean-forward="true" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -90,6 +100,7 @@
       <list>
         <option value="$PROJECT_DIR$/RE_demo1.py" />
         <option value="$PROJECT_DIR$/RE_demo2.py" />
+        <option value="$PROJECT_DIR$/RE_demo3.py" />
       </list>
     </option>
   </component>
@@ -142,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.RE_demo2">
+  <component name="RunManager" selected="Python.RE_demo3">
     <configuration name="RE_demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Demo_RegularExpression" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,12 +198,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="RE_demo3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Demo_RegularExpression" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RE_demo3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.RE_demo1" />
       <item itemvalue="Python.RE_demo2" />
+      <item itemvalue="Python.RE_demo3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RE_demo3" />
         <item itemvalue="Python.RE_demo2" />
         <item itemvalue="Python.RE_demo1" />
       </list>
@@ -213,14 +248,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="340" y="0" width="1029" height="728" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21671827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26386556" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33109245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -254,15 +288,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RE_demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2831">
+        <state relative-caret-position="280">
           <caret line="149" selection-start-line="149" selection-end-line="149" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RE_demo2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="485">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RE_demo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="87" column="18" lean-forward="true" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
         </state>
       </provider>
     </entry>
