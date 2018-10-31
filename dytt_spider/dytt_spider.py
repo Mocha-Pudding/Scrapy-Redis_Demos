@@ -1,7 +1,9 @@
 # 实战-电影天堂爬虫 ->最新电影->前七页全部电影信息
+# 在此前教案基础版本上修改版本，增加了写入excel中的操作
 
 from lxml import etree
 import requests
+import xlwt    #导入xlwt库，来输出存储
 
 BASE_DOMIN = 'http://www.dytt8.net'
 HEADERS = {
@@ -43,9 +45,9 @@ def parse_detail_page(url):
     zoomElement = html.xpath("//div[@id='Zoom']")[0]
     imgs = zoomElement.xpath(".//img/@src")
     poster = imgs[0]  #电影海报
+    # screenshot = imgs[1]  #电影截图
     movie['poster'] = poster
-    # screenshot = imgs[1]  #电影截图    #Q1:因为有些电影详情页面没有影视截图，会报错，暂时先屏蔽以待后续解决
-    # movie['screenshot'] = screenshot    #同上，暂时先屏蔽以待后续解决
+    # movie['screenshot'] = screenshot    #Q1：因为有些电影详情页面没有电影截图，所以会报错，先屏蔽待解决
 
     def parse_info(info,rule):
         return info.replace(rule,"").strip()
@@ -97,7 +99,6 @@ def parse_detail_page(url):
     movie['download_url'] = download_url
     return movie
 
-1
 def spider():
     base_url = "http://www.dytt8.net/html/gndy/dyzz/list_23_{}.html"
     movies = []
@@ -110,7 +111,26 @@ def spider():
             #第二个for循环是用来遍历一页中所有电影的详情url
             movie = parse_detail_page(detail_url)
             movies.append(movie)
-            print(movies)
+            # print(movies)
+
+            # 导入excel
+            book = xlwt.Workbook('utf-8')
+            sheet = book.add_sheet('film_list')
+            head = ['电影标题', '电影海报', '上映时间', '出品国家', '类型', 'IMDB评分', '电影时长', '导游', '演员', '简介', '电影截图' , '下载地址']
+            for h in range(len(head)):
+                sheet.write(0, h, head[h])  # 写入表头
+            i = 1  # row 行？
+            for lists in movies:
+                # print(lists)
+                j = 0  # column 列？
+                for key in lists:
+                    print(key, 'value:', lists[key])
+                    sheet.write(i, j, lists[key])
+                    # print(i,j,lists[key])
+                    j += 1
+                i += 1
+                print("=" * 60)
+            book.save('films_list.xls')
     # print(movies)
 
 if __name__ == "__main__":
