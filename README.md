@@ -45,7 +45,9 @@
 │
 ├─── dytt_spider
 │    ├──  实战-电影天堂爬虫 ->最新电影->前七页全部电影信息
-│    │    └── main.py
+│    │    ├── main.py
+│    │    ├── dytt_spider.py  加入了写入excel表输出功能，修改版本
+│    │    └── films_list.xls   导出的Excel表，记录了1-7页爬取下来电影信息
 │    └── END
 │
 ├─── Demo_BeautifulSoup
