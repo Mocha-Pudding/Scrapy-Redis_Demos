@@ -1,11 +1,13 @@
+# 数据库的链接
+
 import pymysql
 
-conn = pymysql.connect(host='localhost',user='root',password='password',database='pymysql_demo',port='3306')
+db = pymysql.connect(host='localhost',user='root',password='password',database='pymysql_demo',port=3306)
 
-cursor = conn.cursor()
+cursor = db.cursor()
 
-cursor.excute("select 1")
+cursor.execute('select 1')   # 执行sql语句
 result = cursor.fetchone()
 print(result)
 
-conn.close()
+db.close()
