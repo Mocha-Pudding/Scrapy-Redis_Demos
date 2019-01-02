@@ -82,7 +82,9 @@
 ├─── MongoDB_demo
 │    ├── MongoDB数据库操作
 │    │    ├── MongoDB数据库操作.ipynb
-│    │    └── demo.py
+│    │    ├── MongoDB基本操作命令.ipynb
+│    │    ├── Python操作MongoDB.ipynb
+│    │    └── demo1.py
 │    └── END
 │
 ├─── Thread_demo
