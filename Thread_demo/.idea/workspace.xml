@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a97bdefb-781f-47ca-965e-5607ba9ebb8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Thread_demo$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1545913188935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Thread_demo$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1545904397048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Thread_demo$demo4.coverage" NAME="demo4 Coverage Results" MODIFIED="1546589952333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Thread_demo$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1546584504368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -27,22 +28,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="986" />
+          <entry key="py" value="1930" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="986" />
+          <entry key="Python" value="1930" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -68,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state>
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
               <folding>
                 <element signature="e#95#111#0" expanded="true" />
                 <marker date="1545904834925" expanded="true" signature="182:187" ph="..." />
@@ -81,15 +82,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
               <folding>
-                <marker date="1546584286931" expanded="true" signature="84:85" ph="..." />
-                <marker date="1546584286931" expanded="true" signature="84:89" ph="..." />
-                <marker date="1546584286931" expanded="true" signature="173:178" ph="..." />
+                <marker date="1546584504300" expanded="true" signature="172:173" ph="..." />
+                <marker date="1546584504300" expanded="true" signature="172:177" ph="..." />
+                <marker date="1546584504300" expanded="true" signature="291:296" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+              <folding>
+                <element signature="e#19#35#0" expanded="true" />
+                <marker date="1546589944983" expanded="true" signature="183:184" ph="..." />
+                <marker date="1546589944983" expanded="true" signature="183:188" ph="..." />
+                <marker date="1546589944983" expanded="true" signature="701:706" ph="..." />
+                <marker date="1546589944983" expanded="true" signature="1365:1370" ph="..." />
               </folding>
             </state>
           </provider>
@@ -113,6 +130,7 @@
         <option value="$PROJECT_DIR$/demo1.py" />
         <option value="$PROJECT_DIR$/demo2.py" />
         <option value="$PROJECT_DIR$/demo3.py" />
+        <option value="$PROJECT_DIR$/demo4.py" />
       </list>
     </option>
   </component>
@@ -122,7 +140,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="365" />
     <option name="width" value="1001" />
     <option name="height" value="728" />
@@ -167,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo3">
+  <component name="RunManager" selected="Python.demo4">
     <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Thread_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,13 +252,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Thread_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.demo1" />
       <item itemvalue="Python.demo2" />
       <item itemvalue="Python.demo3" />
+      <item itemvalue="Python.demo4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo4" />
         <item itemvalue="Python.demo3" />
         <item itemvalue="Python.demo2" />
         <item itemvalue="Python.demo1" />
@@ -261,15 +303,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="365" y="0" width="1001" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22741765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17700455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.63502455" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,10 +357,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <marker date="1546584504300" expanded="true" signature="172:173" ph="..." />
+            <marker date="1546584504300" expanded="true" signature="172:177" ph="..." />
+            <marker date="1546584504300" expanded="true" signature="291:296" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
           <folding>
             <element signature="e#95#111#0" expanded="true" />
             <marker date="1545904834925" expanded="true" signature="182:187" ph="..." />
@@ -329,14 +383,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo3.py">
+    <entry file="file://$PROJECT_DIR$/demo4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
           <folding>
-            <marker date="1546584286931" expanded="true" signature="84:85" ph="..." />
-            <marker date="1546584286931" expanded="true" signature="84:89" ph="..." />
-            <marker date="1546584286931" expanded="true" signature="173:178" ph="..." />
+            <element signature="e#19#35#0" expanded="true" />
+            <marker date="1546589944983" expanded="true" signature="183:184" ph="..." />
+            <marker date="1546589944983" expanded="true" signature="183:188" ph="..." />
+            <marker date="1546589944983" expanded="true" signature="701:706" ph="..." />
+            <marker date="1546589944983" expanded="true" signature="1365:1370" ph="..." />
           </folding>
         </state>
       </provider>
