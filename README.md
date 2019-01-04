@@ -92,7 +92,11 @@
 │    │    ├── demo1.py （threading模块）
 │    │    ├── demo2.py （使用Thread类创建多线程）
 │    │    ├── demo3.py （多线程共享全局变量以及锁机制）
+│    │    ├── demo4.py （Lock版本生产者和消费者模式代码实现）
+│    │    ├── 
 │    │    ├── 多线程爬虫-threading模块.ipynb
+│    │    ├── Lock版本生产者和消费者模式.ipynb
+│    │    ├── 
 │    │    └── demo4.py
 │    └── END
 │
