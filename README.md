@@ -89,9 +89,10 @@
 │
 ├─── Thread_demo
 │    ├── 多线程爬虫
-│    │    ├── demo1.py
-│    │    ├── demo2.py
-│    │    ├── demo3.py
+│    │    ├── demo1.py （threading模块）
+│    │    ├── demo2.py （使用Thread类创建多线程）
+│    │    ├── demo3.py （多线程共享全局变量以及锁机制）
+│    │    ├── 多线程爬虫-threading模块.ipynb
 │    │    └── demo4.py
 │    └── END
 │
