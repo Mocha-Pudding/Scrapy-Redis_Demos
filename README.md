@@ -71,6 +71,13 @@
 │    │    └── person.json
 │    └── END
 │
+├─── CSV_demo
+│    ├── 数据存储-CSV文件处理
+│    │    ├── demo1.py   （读取csv文件-两种方式）
+│    │    ├── demo2.py   （写入csv文件-两种方式）
+│    │    └── classroom.csv
+│    └── END
+│
 ├─── MySQL_demo
 │    ├── MySQL数据库操作
 │    │    ├── demo1.py
@@ -93,11 +100,13 @@
 │    │    ├── demo2.py （使用Thread类创建多线程）
 │    │    ├── demo3.py （多线程共享全局变量以及锁机制）
 │    │    ├── demo4.py （Lock版本生产者和消费者模式代码实现）
-│    │    ├── 
+│    │    ├── demo5.py （Condition版的生产者与消费者模式）
+│    │    ├── demo6.py （Queue线程安全队列）
 │    │    ├── 多线程爬虫-threading模块.ipynb
 │    │    ├── Lock版本生产者和消费者模式.ipynb
-│    │    ├── 
-│    │    └── demo4.py
+│    │    ├── Condition版的生产者与消费者模式.ipynb
+│    │    ├── Queue线程安全队列.ipynb
+│    │    └── GIL全局解释器锁.ipynb
 │    └── END
 │
 ├─── .idea
