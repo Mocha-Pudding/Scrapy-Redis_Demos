@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5313619f-486f-4311-8171-cfb85fdcfc36" name="Default Changelist" comment="" />
+    <list default="true" id="5313619f-486f-4311-8171-cfb85fdcfc36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/【动态网页爬虫】AJAX介绍-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/【动态网页爬虫】AJAX介绍-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/【动态网页爬虫】AJAX介绍.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/【动态网页爬虫】AJAX介绍.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +15,11 @@
     <session id="-1551838308">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,7 +67,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="291" />
+    <option name="x" value="111" />
+    <option name="y" value="109" />
     <option name="width" value="1077" />
     <option name="height" value="728" />
   </component>
@@ -119,9 +124,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="291" y="0" width="1077" height="728" extended-state="0" />
+    <frame x="111" y="109" width="1077" height="728" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2546706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25958702" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
