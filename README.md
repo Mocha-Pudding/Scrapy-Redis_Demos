@@ -109,6 +109,13 @@
 │    │    └── GIL全局解释器锁.ipynb
 │    └── END
 │
+├─── AJAX_demo
+│    ├── 动态网页爬虫
+│    │    ├── demo1.py （selenium + chromedriver）
+│    │    ├──【动态网页爬虫】AJAX介绍.ipynb
+│    │    └──【动态网页爬虫】Selenium.ipynb
+│    └── END
+│
 ├─── .idea
 │
 ├─── .gitattributes
