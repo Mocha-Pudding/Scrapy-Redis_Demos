@@ -13,7 +13,8 @@ print(driver.window_handles)
 print('1====>>', driver.current_url)
 
 #### 切换到新的页面中
-driver.switch_to_window(driver.window_handles[1])
+# driver.switch_to_window(driver.window_handles[1])
+driver.switch_to.window(driver.window_handles[1])
 
 print('2====>>', driver.current_url)
 print(driver.page_source)
