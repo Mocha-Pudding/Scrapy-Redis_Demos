@@ -116,6 +116,17 @@
 │    │    └──【动态网页爬虫】Selenium.ipynb
 │    └── END
 │
+├─── Scrapy-Redis_Demos
+│    ├── Scrapy框架
+│    │    ├── Scrapy框架架构.ipynb
+│    │    ├── Scrapy快速入门.ipynb
+│    │    ├── Dataflow.png
+│    │    ├── Scrapy_Architecture.png
+│    │    ├──【Scrapy框架】
+│    │    ├──【Scrapy框架】
+│    │    └──【Scrapy框架】
+│    └── END
+│
 ├─── .idea
 │
 ├─── .gitattributes
