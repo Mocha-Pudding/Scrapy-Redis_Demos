@@ -122,8 +122,8 @@
 │    │    ├── Scrapy快速入门.ipynb
 │    │    ├── Dataflow.png
 │    │    ├── Scrapy_Architecture.png
-│    │    ├──【Scrapy框架】
-│    │    ├──【Scrapy框架】
+│    │    ├── CrawlSpider
+│    │    ├── ScrapyShell
 │    │    └──【Scrapy框架】
 │    └── END
 │
