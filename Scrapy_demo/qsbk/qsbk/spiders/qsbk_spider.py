@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+from qsbk.items import QsbkItem
 from scrapy.http.response.html import HtmlResponse
 from scrapy.selector.unified import SelectorList
 
@@ -20,4 +21,7 @@ class QsbkSpiderSpider(scrapy.Spider):
             author = duanzidiv.xpath(".//h2/text()").get().strip()    #strip()是去除前后空白
             content = duanzidiv.xpath(".//div[@class='content']//text()").getall()
             content = "".join(content).strip()    #content就变成字符串str了
-            print(content)
+            # print(content)
+            item = QsbkItem(author=author, content=content)
+            # duanzi = {"author":author, "content":content}    #定义一个字典存放
+            yield item
