@@ -11,6 +11,7 @@ class QsbkSpiderSpider(scrapy.Spider):
     allowed_domains = ['qiushibaike.com']
     #start_urls：爬虫从这个变量中的url开始
     start_urls = ['https://www.qiushibaike.com/text/page/1/']
+    base_domain = "https://www.qiushibaike.com"
 
     def parse(self, response):
         contentLeft = response.xpath("//div[@id='content-left']")
@@ -25,3 +26,8 @@ class QsbkSpiderSpider(scrapy.Spider):
             item = QsbkItem(author=author, content=content)
             # duanzi = {"author":author, "content":content}    #定义一个字典存放
             yield item
+        next_url = response.xpath("//ul[@class='pagination']/li[last()]/a/@href").get()
+        if not next_url:
+            return
+        else:
+            yield scrapy.Request(self.base_domain+next_url,callback=self.parse) 
