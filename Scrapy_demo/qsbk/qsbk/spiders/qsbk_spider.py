@@ -30,4 +30,4 @@ class QsbkSpiderSpider(scrapy.Spider):
         if not next_url:
             return
         else:
-            yield scrapy.Request(self.base_domain+next_url,callback=self.parse) 
+            yield scrapy.Request(self.base_domain+next_url,callback=self.parse)
