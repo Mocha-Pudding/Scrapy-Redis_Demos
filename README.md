@@ -122,7 +122,15 @@
 │    │    ├── Scrapy快速入门.ipynb
 │    │    ├── Dataflow.png
 │    │    ├── Scrapy_Architecture.png
-│    │    ├── CrawlSpider
+│    │    ├── qsbk 【项目实战】使用Scrapy框架爬取糗事百科
+│    │    │    ├── 糗事百科之爬虫编写qsbk_spider
+│    │    │    ├── 糗事百科之pipeline保存数据
+│    │    │    └── 糗事百科多页面抓取
+│    │    ├── 【项目】使用Scrapy框架爬取糗事百科段子.ipynb
+│    │    ├── Scrapy笔记.jpg
+│    │    ├── qsbk_spider.jpg
+│    │    ├── CrawlSpider.ipynb
+│    │    ├── wxapp 【项目实战】CrawlSpider实现微信小程序社区爬虫
 │    │    ├── ScrapyShell
 │    │    └──【Scrapy框架】
 │    └── END
