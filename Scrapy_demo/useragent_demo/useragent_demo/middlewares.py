@@ -102,7 +102,7 @@ class UseragentDemoDownloaderMiddleware(object):
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
 
-
+# 随机请求头中间件
 class UserAgentDownloadMiddleware(object):
     USER_AGENTS = [
         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
@@ -116,3 +116,11 @@ class UserAgentDownloadMiddleware(object):
     def process_request(self, request, spider):
         user_agent = random.choice(self.USER_AGENTS)    # 从USER_AGENTS列表中随机选择一个User-Agent
         request.headers['User-Agent'] = user_agent
+
+# ip代理池中间件
+class IPProxyDownloadMiddleware(object):
+    PROXIES = ["211.159.171.58:80", "49.86.180.212:9999", "220.160.254.18:9999"]
+
+    def process_request(self, request, spider):
+        proxy = random.choice(self.PROXIES)
+        request.meta['proxy'] = proxy
