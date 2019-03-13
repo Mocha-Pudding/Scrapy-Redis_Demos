@@ -7,6 +7,7 @@
 
 from scrapy import signals
 import random
+import base64
 
 class UseragentDemoSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -118,9 +119,21 @@ class UserAgentDownloadMiddleware(object):
         request.headers['User-Agent'] = user_agent
 
 # ip代理池中间件
+################# 开放代理写法 #################
 class IPProxyDownloadMiddleware(object):
-    PROXIES = ["211.159.171.58:80", "49.86.180.212:9999", "220.160.254.18:9999"]
+    PROXIES = ["163.125.115.189:8118", "118.122.114.236:9000", "117.90.252.146:9000", "123.101.207.205:9999", "211.159.171.58:80", "49.86.180.212:9999"]
 
     def process_request(self, request, spider):
         proxy = random.choice(self.PROXIES)
-        request.meta['proxy'] = proxy
+        # print("被选中的代理：%s" % proxy)
+        request.meta['proxy'] = "http://" + proxy
+
+################# 带用户名和密码的私享代理用法 #################
+# class IPProxyDownloadMiddleware(object):
+#     def process_request(self, request, spider):
+#         proxy = "121.199.6.124:16816"
+#         user_password = "970138074:rcdj35ur"
+#         request.meta['proxy'] = proxy
+#         # bytes
+#         b64_user_password = base64.b64encode(user_password.encode('utf-8'))
+#         request.headers['Proxy-Authorization'] = 'Basic ' + b64_user_password.decode('utf-8')

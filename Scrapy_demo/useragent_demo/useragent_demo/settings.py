@@ -56,7 +56,7 @@ DEFAULT_REQUEST_HEADERS = {
 DOWNLOADER_MIDDLEWARES = {
    # 'useragent_demo.middlewares.UseragentDemoDownloaderMiddleware': 543,
    'useragent_demo.middlewares.UserAgentDownloadMiddleware': 543,
-   'useragent_demo.middlewares.IPProxyDownloadMiddleware': 200,
+   'useragent_demo.middlewares.IPProxyDownloadMiddleware': 100,
 }
 
 # Enable or disable extensions
