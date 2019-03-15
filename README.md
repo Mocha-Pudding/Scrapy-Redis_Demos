@@ -131,7 +131,17 @@
 │    │    ├── qsbk_spider.jpg
 │    │    ├── CrawlSpider.ipynb
 │    │    ├── wxapp 【项目实战】CrawlSpider实现微信小程序社区爬虫
-│    │    ├── ScrapyShell
+│    │    ├── Scrapy Shell的使用
+│    │    ├── Request和Response对象.ipynb
+│    │    ├── renren_login 【项目实战】Scrapy模拟登录人人网
+│    │    ├── douban_login 【项目实战】Scrapy模拟登录豆瓣网，自动识别豆瓣网验证码
+│    │    ├── 下载文件和图片.ipynb  【项目实战】Scrapy框架下载汽车之家 参见项目Repository：Scrapy_autoHome
+│    │    ├── Downloader Middlewares（下载器中间件讲解）
+│    │    │    ├── Downloader Middlewares（下载器中间件）.ipynb
+│    │    │    ├── 反爬虫-设置随机请求头（随机请求头中间件）
+│    │    │    ├── 反爬虫-ip代理池（ip代理池中间件）
+│    │    │    ├── 【项目实战】攻克BOSS直聘反爬虫之正常爬取 bossZhipin
+│    │    │    └── 【项目实战】攻克BOSS直聘反爬虫之无限爬取 zhipin
 │    │    └──【Scrapy框架】
 │    └── END
 │
