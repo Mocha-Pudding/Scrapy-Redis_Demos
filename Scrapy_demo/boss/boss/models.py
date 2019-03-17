@@ -8,6 +8,7 @@ class ProxyModel(object):
         self.ip = data['ip']
         self.port = data['port']
         self.expire_str = data['expire_time']
+        self.blacked = False   # 是否被拉黑
 
         # 时间格式： 2019-01-15 10:15:20
         # datetime.strptime()   # strptime()此方法为纯Python实现，执行效率不高
@@ -34,7 +35,7 @@ class ProxyModel(object):
     @property
     def is_expiring(self):   # 判断代理是否即将过期
         now = datetime.now()
-        if (now - self.expire_time) < timedelta(seconds=5):
+        if (self.expire_time - now) < timedelta(seconds=5):
             # 过期时间小于5秒，就请求代理
             return True
         else:
